@@ -6,10 +6,10 @@ Scripts we use to administer the XFR Collective collection using Internet Archiv
 
 ## Install Dependencies
 
--python
--pandas
--pip
--internetarchive
+- python
+- pandas
+- pip
+- internetarchive
 
 before running any of the scripts below, be sure to log into your internet archive account using `ia config`
 
