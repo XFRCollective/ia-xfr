@@ -1,4 +1,4 @@
-# Internet Archive Repo Management
+# Internet Archive File and Metadata Management 
 
 This repository contains scripts and commands used by XFR Collective to administer files and metadata on Internet Archive.  Many thanks to Spencer Portée and Nıck Krabbenhöft for their contributions. 
 
@@ -28,13 +28,8 @@ To run the script:
 
 Once the .csv file has been exported, it can be edited and the new data re-imported into Internet Archive. 
 
-1. Export .csv file using the instructions above
+1. Export the .csv file using the instructions above
 2. Edit .csv file in Excel or another spreadsheet program. Do not change the name of any header field.  
 3. Save edited .csv file AS a .csv file
 4. Run `ia config [internet archive login]`
 5. Run `ia metadata --spreadsheet="uploading.csv"`
-
-## Bulk Upload Files
-
-1. Copy ia-xfr-upload.csv and save to your computer
-2. 
