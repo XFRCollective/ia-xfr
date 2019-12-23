@@ -1,6 +1,6 @@
 # internetarchive
 
-This repository contains scripts and commands used by XFR Collective to administer files on Internet Archive. 
+This repository contains scripts and commands used by XFR Collective to administer files on Internet Archive. These scripts were written for Unix. 
 
 ## dependencies
 
