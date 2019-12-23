@@ -1,28 +1,28 @@
 # Internet Archive Repo Management
 
-This repository contains scripts and commands used by XFR Collective to administer files and metadata on Internet Archive. These scripts were written for Unix. Many thanks to Spencer Portée and Nıck Krabbenhöft for their contributions. 
+This repository contains scripts and commands used by XFR Collective to administer files and metadata on Internet Archive.  Many thanks to Spencer Portée and Nıck Krabbenhöft for their contributions. 
 
 ## Dependencies
 
-Installing the programs below is all very easy with Homebrew, so install that first if you can: https://brew.sh/. Install in the order listed. 
+These scripts were written for Unix. Install programs in the following order. 
 
+- homebrew [https://brew.sh/], or [brew upgrade] 
 - python [brew install python]
 - pip [brew install pip] 
 - pandas [pip install pandas] 
 - internetarchive [pip install internetarchive] 
 
-Before running any of the scripts below, be sure to log into your internet archive account using `ia config`
+Before running any of the scripts below, or commands, be sure to log into your internet archive account using `ia config`
 
 ## Export Metadata 
 
-The ia-csv.py script exports all metadata from an Internet Archive collection as a .csv file. The file can then be edited and uploaded back into internet archive using the command `ia metadata --spreadsheet="xfrcollective.csv`. The ia-csv.py script was adapted from the ia-json.py script created by Github user pwallace: https://github.com/pwallace/metadata-processing. 
+The ia-csv.py script in this repository exports all metadata from an Internet Archive collection as a .csv file. The file can then be edited and uploaded back into internet archive using the command `ia metadata --spreadsheet="xfrcollective.csv`. The ia-csv.py script was adapted from the ia-json.py script created by Github user pwallace: https://github.com/pwallace/metadata-processing. 
 
-To run the script
+To run the script: 
 
-1. Install all dependencies
-2. Copy ia-csv.py script
-3. Run `ia config [internet archive login]`
-4. Run `python ia-csv.py [collection name] [output file]` 
+1. Copy ia-csv.py script and save to your computer
+2. Run `ia config [internet archive login]`
+3. Run `python ia-csv.py [collection name] [output file]` 
 
 ## Edit and Upload Metadata
 
