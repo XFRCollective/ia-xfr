@@ -3,12 +3,14 @@
 This repository contains scripts and commands used by XFR Collective to administer files on Internet Archive. These scripts were written for Unix. Many thanks to Spencer Portée and Nıck Krabbenhöft for their contributions. 
 
 
-## dependencies
+## Dependencies
 
-- python
-- pandas
-- pip
-- internetarchive
+Installing the programs below is all very easy with Homebrew, so install that first if you can: https://brew.sh/. Install in the order listed. 
+
+- python [brew install python]
+- pip [brew install pip] 
+- pandas [pip install pandas] 
+- internetarchive [pip install internetarchive] 
 
 Before running any of the scripts below, be sure to log into your internet archive account using `ia config`
 
