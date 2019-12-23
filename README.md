@@ -15,7 +15,7 @@ Before running any of the scripts below, be sure to log into your internet archi
 
 ## Export Metadata 
 
-The ia-csv.py script exports all metadata in an internet archive collection as a .csv file. The file can then be edited and uploaded back into internet archive using the command `ia metadata --spreadsheet="xfrcollective.csv`.  
+The ia-csv.py script exports all metadata from an Internet Archive collection as a .csv file. The file can then be edited and uploaded back into internet archive using the command `ia metadata --spreadsheet="xfrcollective.csv`. The ia-csv.py script was adapted from the ia-json.py script created by Github user pwallace: https://github.com/pwallace/metadata-processing. 
 
 To run the script
 
