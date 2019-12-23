@@ -1,7 +1,6 @@
-# internetarchive
+# Internet Archive Repo Management
 
-This repository contains scripts and commands used by XFR Collective to administer files on Internet Archive. These scripts were written for Unix. Many thanks to Spencer Portée and Nıck Krabbenhöft for their contributions. 
-
+This repository contains scripts and commands used by XFR Collective to administer files and metadata on Internet Archive. These scripts were written for Unix. Many thanks to Spencer Portée and Nıck Krabbenhöft for their contributions. 
 
 ## Dependencies
 
