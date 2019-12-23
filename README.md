@@ -4,13 +4,13 @@ This repository contains scripts and commands used by XFR Collective to administ
 
 ## Dependencies
 
-These scripts were written for Unix. Install programs in the order they are listed: 
+These scripts were written for Unix, specially Mac users. Install programs in the order they are listed: 
 
-- homebrew [https://brew.sh/], or, if already installed [`brew upgrade`] 
-- python [`brew install python`]
-- pip [`brew install pip`] 
-- pandas [`pip install pandas`] 
-- internetarchive [`pip install internetarchive`] 
+- homebrew https://brew.sh/, or, if already installed `brew upgrade` 
+- python `brew install python`
+- pip `brew install pip`
+- pandas `pip install pandas`
+- internetarchive `pip install internetarchive`
 
 Before running any of the scripts below, or commands, be sure to log into your internet archive account using `ia config`. 
 
