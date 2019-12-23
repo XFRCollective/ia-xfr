@@ -32,4 +32,4 @@ Once the .csv file has been exported, it can be edited and the new data re-impor
 2. Edit .csv file in Excel or another spreadsheet program. Do not change the name of any header field.  
 3. Save edited .csv file AS a .csv file
 4. Run `ia config [internet archive login]`
-5. Run `ia metadata --spreadsheet="uploading.csv"`
+5. Run `ia metadata --spreadsheet="[filename].csv"`
