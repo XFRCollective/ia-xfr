@@ -16,7 +16,7 @@ Before running the scripts or commands below, be sure to log into your internet 
 
 ## Bulk Export Metadata 
 
-The ia-csv.py script in this repository exports all metadata from an Internet Archive collection as a .csv file. The file can then be edited and uploaded back into internet archive using the command `ia metadata --spreadsheet="xfrcollective.csv`. The ia-csv.py script was adapted from the ia-json.py script created by Github user pwallace: https://github.com/pwallace/metadata-processing. 
+The ia-csv.py script in this repository exports all metadata from an Internet Archive collection as a .csv file. The file can then be edited and uploaded back into internet archive by following the Bulk Edit Metadata script below. The ia-csv.py script was adapted from the ia-json.py script created by Github user pwallace: https://github.com/pwallace/metadata-processing. 
 
 To run the script: 
 
@@ -24,7 +24,7 @@ To run the script:
 2. Run `ia config [internet archive login]`
 3. Run `python ia-csv.py [collection name] [output file]` 
 
-## Bulk Edit and Upload Metadata
+## Bulk Edit Metadata
 
 Once the .csv file has been exported, it can be edited and the new data re-imported into Internet Archive. 
 
