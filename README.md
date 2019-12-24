@@ -1,10 +1,10 @@
 # Internet Archive File and Metadata Management 
 
-This repository contains scripts and commands used by XFR Collective to administer files and metadata on Internet Archive.  Many thanks to Spencer Portée and Nıck Krabbenhöft for their contributions. 
+This repository contains scripts and commands used by XFR Collective to administer files and metadata on Internet Archive.  
 
 ## Dependencies
 
-These scripts were written for Unix, specially Mac users. Install programs in the order they are listed: 
+These scripts were written for Unix, specifically MAC/Terminal. Install programs in the order they are listed: 
 
 - homebrew https://brew.sh/, or, if already installed `brew upgrade` 
 - python `brew install python`
@@ -12,7 +12,7 @@ These scripts were written for Unix, specially Mac users. Install programs in th
 - pandas `pip install pandas`
 - internetarchive `pip install internetarchive`
 
-Before running any of the scripts below, or commands, be sure to log into your internet archive account using `ia config`. 
+Before running the scripts below or commands below, be sure to log into your internet archive account using `ia config`. 
 
 ## Bulk Export Metadata 
 
@@ -33,3 +33,23 @@ Once the .csv file has been exported, it can be edited and the new data re-impor
 3. Save edited .csv file AS a .csv file
 4. Run `ia config [internet archive login]`
 5. Run `ia metadata --spreadsheet="[filename].csv"`
+
+## Bulk File Import 
+
+Coming Soon
+
+## Single File Import
+
+Coming Soon
+
+## Single File Metadata Update
+
+Coming Soon
+
+## Contributors
+
+Kelly Haydon
+Spencer Portée 
+Nıck Krabbenhöft 
+
+
