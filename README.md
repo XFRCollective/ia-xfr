@@ -49,6 +49,7 @@ Coming Soon
 ## Contributors
 
 - Kelly Haydon
+- Ben Turkus
 - Spencer Portée 
 - Nıck Krabbenhöft 
 
