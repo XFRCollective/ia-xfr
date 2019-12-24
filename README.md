@@ -42,7 +42,7 @@ Coming Soon
 
 Coming Soon
 
-## Single File Metadata Update
+## Single Edit Metadata
 
 Coming Soon
 
