@@ -12,7 +12,7 @@ These scripts were written for Unix, specifically MAC/Terminal. Install programs
 - pandas `pip install pandas`
 - internetarchive `pip install internetarchive`
 
-Before running the scripts below or commands below, be sure to log into your internet archive account using `ia config`. 
+Before running the scripts or commands below, be sure to log into your internet archive account using `ia config`. 
 
 ## Bulk Export Metadata 
 
