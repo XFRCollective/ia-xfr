@@ -48,8 +48,8 @@ Coming Soon
 
 ## Contributors
 
-Kelly Haydon
-Spencer Portée 
-Nıck Krabbenhöft 
+- Kelly Haydon
+- Spencer Portée 
+- Nıck Krabbenhöft 
 
 
