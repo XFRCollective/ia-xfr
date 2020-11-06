@@ -4,7 +4,7 @@ This repository contains scripts and commands used by XFR Collective to administ
 
 ## Dependencies
 
-These scripts were written for Unix, specifically MAC/Terminal. Install programs in the order they are listed. 
+These scripts were written for Unix, specifically macOS. Open terminal and install programs in the order they are listed. 
 
 - homebrew https://brew.sh/, or, if already installed `brew upgrade` 
 - python `brew install python` (or `brew upgrade python` if already install, you'll want to be on python3) 
