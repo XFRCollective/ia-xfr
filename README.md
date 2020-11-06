@@ -7,9 +7,9 @@ This repository contains scripts and commands used by XFR Collective to administ
 These scripts were written for Unix, specifically MAC/Terminal. Install programs in the order they are listed. 
 
 - homebrew https://brew.sh/, or, if already installed `brew upgrade` 
-- python `brew install python` or `brew upgrade python` 
+- python `brew install python` (or `brew upgrade python` if already install, you'll want to be on python3) 
 - internetarchive `brew install internetarchive`
-- pandas `pip install pandas` or `pip3 install pandas` (depending on your OS)
+- pandas `pip3 install pandas`
 
 Before running the scripts or commands below, be sure to log into your internet archive account using `ia config`. 
 
