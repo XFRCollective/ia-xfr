@@ -9,7 +9,7 @@ These scripts were written for Unix, specifically macOS. Open terminal and insta
 - homebrew https://brew.sh/, or, if already installed `brew upgrade` 
 - python `brew install python` (or `brew upgrade python` if already install, you'll want to be on python3) 
 - internetarchive `brew install internetarchive`
-- pip install internetarchive
+- python internetarchive `pip install internetarchive`
 - pandas `pip3 install pandas`
 
 Before running the scripts or commands below, be sure to log into your internet archive account using `ia config`. 
