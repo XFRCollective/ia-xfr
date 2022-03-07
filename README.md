@@ -7,10 +7,10 @@ This repository contains scripts and commands used by XFR Collective to administ
 These scripts were written for Unix, specifically macOS. Open terminal and install programs in the order they are listed. 
 
 - homebrew https://brew.sh/, or, if already installed `brew upgrade` 
-- python `brew install python` (or `brew upgrade python` if already install, you'll want to be on python3) 
+- python3 `brew install python` (or `brew upgrade python` if already install, you'll want to be on python3) 
 - internetarchive `brew install internetarchive`
-- python internetarchive `pip install internetarchive`
-- pandas `pip install pandas`
+- python3 internetarchive `pip3 install internetarchive`
+- pandas `pip3 install pandas`
 
 Before running the scripts or commands below, be sure to log into your internet archive account using `ia config`. 
 
@@ -22,7 +22,7 @@ To run the script:
 
 1. Copy ia-csv.py script and save to your computer
 2. Run `ia config [internet archive login]`
-3. Run `python ia-csv.py [collection name] [output file]` 
+3. Run `python3 ia-csv.py [collection name] [output file]` 
 
 ## Bulk Edit Metadata
 
