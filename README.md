@@ -10,7 +10,7 @@ These scripts were written for Unix, specifically macOS. Open terminal and insta
 - python `brew install python` (or `brew upgrade python` if already install, you'll want to be on python3) 
 - internetarchive `brew install internetarchive`
 - python internetarchive `pip install internetarchive`
-- pandas `pip3 install pandas`
+- pandas `pip install pandas`
 
 Before running the scripts or commands below, be sure to log into your internet archive account using `ia config`. 
 
