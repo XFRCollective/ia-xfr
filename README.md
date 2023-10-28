@@ -21,7 +21,7 @@ The ia-csv.py script in this repository exports all metadata from an Internet Ar
 To run the script: 
 
 1. Copy ia-csv.py script and save to your computer
-2. Run `ia config [internet archive login]`
+2. Run `ia configure [internet archive login]`
 3. Run `python3 ia-csv.py [collection name] [output file]` 
 
 ## Bulk Edit Metadata
